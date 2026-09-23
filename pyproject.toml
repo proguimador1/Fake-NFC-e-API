@@ -1,0 +1,21 @@
+[project]
+name = "api-geradora-xml"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Guilherme Souto", email = "guilherme.programmer1@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "faker>=40.39.0",
+    "fastapi[standard]>=0.141.1",
+    "python-dotenv>=1.2.3",
+]
+
+[project.scripts]
+api-geradora-xml = "api_geradora_xml:main"
+
+[build-system]
+requires = ["uv_build>=0.12.16,<0.13.0"]
+build-backend = "uv_build"
