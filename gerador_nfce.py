@@ -1,4 +1,5 @@
 import random
+import os
 import json
 import xml.etree.ElementTree as ET
 from datetime import datetime
@@ -95,4 +96,4 @@ def gerar_compra():
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host=os.getenv("HOST"), port=os.getenv("PORT"))
