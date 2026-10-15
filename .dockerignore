@@ -1,0 +1,28 @@
+# Git
+.git/
+.gitignore
+
+# Ambiente virtual local
+.venv/
+venv/
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Testes e ferramentas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editores
+.vscode/
+.idea/
+
+# Sistema operacional
+.DS_Store

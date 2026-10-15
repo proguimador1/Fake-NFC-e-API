@@ -101,8 +101,8 @@ def gerar_compra():
 
     return Response(content=resposta["xml"], media_type="application/xml")
 
-
 if __name__ == "__main__":
+
     import uvicorn
 
     host = os.getenv("HOST", "0.0.0.0")
