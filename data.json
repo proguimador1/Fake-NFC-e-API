@@ -1,0 +1,3628 @@
+{
+"supermercados": [
+{
+"nome": "Supermercado 1",
+"cnpj": "12.345.678/0001-90",
+"produtos": [
+{
+"nome": "Arroz branco 5kg",
+"categoria": "alimentício",
+"unidade": "pacote 5 kg",
+"preco_unitario": 29.85
+},
+{
+"nome": "Arroz integral 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 6.88
+},
+{
+"nome": "Feijão carioca 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 13.91
+},
+{
+"nome": "Feijão preto 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 11.23
+},
+{
+"nome": "Açúcar refinado 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 34.61
+},
+{
+"nome": "Açúcar cristal 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 41.52
+},
+{
+"nome": "Café moído 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 44.89
+},
+{
+"nome": "Óleo de soja 900ml",
+"categoria": "alimentício",
+"unidade": "garrafa 900 ml",
+"preco_unitario": 39.46
+},
+{
+"nome": "Azeite de oliva 500ml",
+"categoria": "alimentício",
+"unidade": "garrafa 500 ml",
+"preco_unitario": 22.03
+},
+{
+"nome": "Farinha de trigo 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 8.01
+},
+{
+"nome": "Farinha de mandioca 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 43.51
+},
+{
+"nome": "Fubá de milho 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 44.02
+},
+{
+"nome": "Macarrão espaguete 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 13.06
+},
+{
+"nome": "Macarrão parafuso 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 12.16
+},
+{
+"nome": "Molho de tomate 340g",
+"categoria": "alimentício",
+"unidade": "sachê 340 g",
+"preco_unitario": 10.96
+},
+{
+"nome": "Extrato de tomate 130g",
+"categoria": "alimentício",
+"unidade": "lata 130 g",
+"preco_unitario": 22.18
+},
+{
+"nome": "Sal refinado 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 8.54
+},
+{
+"nome": "Leite integral 1L",
+"categoria": "alimentício",
+"unidade": "caixa 1 L",
+"preco_unitario": 20.35
+},
+{
+"nome": "Leite desnatado 1L",
+"categoria": "alimentício",
+"unidade": "caixa 1 L",
+"preco_unitario": 20.32
+},
+{
+"nome": "Leite em pó 400g",
+"categoria": "alimentício",
+"unidade": "lata 400 g",
+"preco_unitario": 39.54
+},
+{
+"nome": "Manteiga com sal 200g",
+"categoria": "alimentício",
+"unidade": "pote 200 g",
+"preco_unitario": 29.56
+},
+{
+"nome": "Margarina 500g",
+"categoria": "alimentício",
+"unidade": "pote 500 g",
+"preco_unitario": 16.71
+},
+{
+"nome": "Requeijão cremoso 200g",
+"categoria": "alimentício",
+"unidade": "copo 200 g",
+"preco_unitario": 12.83
+},
+{
+"nome": "Queijo muçarela 100g",
+"categoria": "alimentício",
+"unidade": "bandeja 100 g",
+"preco_unitario": 22.18
+},
+{
+"nome": "Queijo prato 100g",
+"categoria": "alimentício",
+"unidade": "bandeja 100 g",
+"preco_unitario": 39.11
+},
+{
+"nome": "Presunto cozido 100g",
+"categoria": "alimentício",
+"unidade": "bandeja 100 g",
+"preco_unitario": 39.75
+},
+{
+"nome": "Iogurte natural 170g",
+"categoria": "alimentício",
+"unidade": "pote 170 g",
+"preco_unitario": 33.43
+},
+{
+"nome": "Creme de leite 200g",
+"categoria": "alimentício",
+"unidade": "caixa 200 g",
+"preco_unitario": 21.05
+},
+{
+"nome": "Leite condensado 395g",
+"categoria": "alimentício",
+"unidade": "caixa 395 g",
+"preco_unitario": 27.67
+},
+{
+"nome": "Ovos brancos 12 unidades",
+"categoria": "alimentício",
+"unidade": "bandeja 12 un",
+"preco_unitario": 32.8
+},
+{
+"nome": "Pão de fôrma 400g",
+"categoria": "alimentício",
+"unidade": "pacote 400 g",
+"preco_unitario": 31.76
+},
+{
+"nome": "Pão integral 400g",
+"categoria": "alimentício",
+"unidade": "pacote 400 g",
+"preco_unitario": 30.63
+},
+{
+"nome": "Biscoito salgado 300g",
+"categoria": "alimentício",
+"unidade": "pacote 300 g",
+"preco_unitario": 17.06
+},
+{
+"nome": "Biscoito recheado 130g",
+"categoria": "alimentício",
+"unidade": "pacote 130 g",
+"preco_unitario": 15.34
+},
+{
+"nome": "Biscoito maizena 400g",
+"categoria": "alimentício",
+"unidade": "pacote 400 g",
+"preco_unitario": 11.23
+},
+{
+"nome": "Achocolatado em pó 400g",
+"categoria": "alimentício",
+"unidade": "pote 400 g",
+"preco_unitario": 27.5
+},
+{
+"nome": "Cereal matinal 300g",
+"categoria": "alimentício",
+"unidade": "caixa 300 g",
+"preco_unitario": 20.31
+},
+{
+"nome": "Aveia em flocos 170g",
+"categoria": "alimentício",
+"unidade": "caixa 170 g",
+"preco_unitario": 37.1
+},
+{
+"nome": "Milho de pipoca 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 21.05
+},
+{
+"nome": "Lentilha 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 10.98
+},
+{
+"nome": "Grão-de-bico 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 30.2
+},
+{
+"nome": "Milho verde em conserva 170g",
+"categoria": "alimentício",
+"unidade": "lata 170 g",
+"preco_unitario": 13.92
+},
+{
+"nome": "Ervilha em conserva 170g",
+"categoria": "alimentício",
+"unidade": "lata 170 g",
+"preco_unitario": 40.06
+},
+{
+"nome": "Sardinha em lata 125g",
+"categoria": "alimentício",
+"unidade": "lata 125 g",
+"preco_unitario": 24.78
+},
+{
+"nome": "Atum em pedaços 170g",
+"categoria": "alimentício",
+"unidade": "lata 170 g",
+"preco_unitario": 27.94
+},
+{
+"nome": "Azeitona verde 150g",
+"categoria": "alimentício",
+"unidade": "sachê 150 g",
+"preco_unitario": 25.07
+},
+{
+"nome": "Maionese 500g",
+"categoria": "alimentício",
+"unidade": "pote 500 g",
+"preco_unitario": 15.63
+},
+{
+"nome": "Ketchup 390g",
+"categoria": "alimentício",
+"unidade": "frasco 390 g",
+"preco_unitario": 25.13
+},
+{
+"nome": "Mostarda 200g",
+"categoria": "alimentício",
+"unidade": "frasco 200 g",
+"preco_unitario": 23.36
+},
+{
+"nome": "Vinagre de álcool 750ml",
+"categoria": "alimentício",
+"unidade": "garrafa 750 ml",
+"preco_unitario": 23.82
+},
+{
+"nome": "Vinagre de maçã 500ml",
+"categoria": "alimentício",
+"unidade": "garrafa 500 ml",
+"preco_unitario": 38.3
+},
+{
+"nome": "Chá preto 25 envelopes",
+"categoria": "alimentício",
+"unidade": "caixa 25 un",
+"preco_unitario": 29.85
+},
+{
+"nome": "Chá de camomila 15 envelopes",
+"categoria": "alimentício",
+"unidade": "caixa 15 un",
+"preco_unitario": 34.01
+},
+{
+"nome": "Suco concentrado 500ml",
+"categoria": "alimentício",
+"unidade": "garrafa 500 ml",
+"preco_unitario": 12.08
+},
+{
+"nome": "Refrigerante cola 2L",
+"categoria": "alimentício",
+"unidade": "garrafa 2 L",
+"preco_unitario": 40.59
+},
+{
+"nome": "Refrigerante guaraná 2L",
+"categoria": "alimentício",
+"unidade": "garrafa 2 L",
+"preco_unitario": 10.95
+},
+{
+"nome": "Água mineral sem gás 1.5L",
+"categoria": "alimentício",
+"unidade": "garrafa 1.5 L",
+"preco_unitario": 44.13
+},
+{
+"nome": "Água mineral com gás 500ml",
+"categoria": "alimentício",
+"unidade": "garrafa 500 ml",
+"preco_unitario": 13.91
+},
+{
+"nome": "Polpa de fruta congelada 100g",
+"categoria": "alimentício",
+"unidade": "pacote 100 g",
+"preco_unitario": 32.85
+},
+{
+"nome": "Batata palha 120g",
+"categoria": "alimentício",
+"unidade": "pacote 120 g",
+"preco_unitario": 12.01
+},
+{
+"nome": "Amendoim torrado 150g",
+"categoria": "alimentício",
+"unidade": "pacote 150 g",
+"preco_unitario": 17.51
+},
+{
+"nome": "Castanha-de-caju 100g",
+"categoria": "alimentício",
+"unidade": "pacote 100 g",
+"preco_unitario": 41.25
+},
+{
+"nome": "Goiabada 300g",
+"categoria": "alimentício",
+"unidade": "pacote 300 g",
+"preco_unitario": 28.52
+},
+{
+"nome": "Doce de leite 400g",
+"categoria": "alimentício",
+"unidade": "pote 400 g",
+"preco_unitario": 40.85
+},
+{
+"nome": "Gelatina em pó 20g",
+"categoria": "alimentício",
+"unidade": "pacote 20 g",
+"preco_unitario": 25.13
+},
+{
+"nome": "Pudim em pó 50g",
+"categoria": "alimentício",
+"unidade": "pacote 50 g",
+"preco_unitario": 15.11
+},
+{
+"nome": "Fermento em pó químico 100g",
+"categoria": "alimentício",
+"unidade": "pote 100 g",
+"preco_unitario": 34.62
+},
+{
+"nome": "Coco ralado 100g",
+"categoria": "alimentício",
+"unidade": "pacote 100 g",
+"preco_unitario": 18.23
+},
+{
+"nome": "Leite de coco 200ml",
+"categoria": "alimentício",
+"unidade": "vidro 200 ml",
+"preco_unitario": 34.2
+},
+{
+"nome": "Tempero completo 300g",
+"categoria": "alimentício",
+"unidade": "pote 300 g",
+"preco_unitario": 30.68
+},
+{
+"nome": "Caldo de galinha 114g",
+"categoria": "alimentício",
+"unidade": "caixa 6 un",
+"preco_unitario": 25.75
+},
+{
+"nome": "Pimenta-do-reino moída 50g",
+"categoria": "alimentício",
+"unidade": "pacote 50 g",
+"preco_unitario": 31.0
+},
+{
+"nome": "Salsicha congelada 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 42.66
+},
+{
+"nome": "Linguiça calabresa 400g",
+"categoria": "alimentício",
+"unidade": "pacote 400 g",
+"preco_unitario": 21.36
+},
+{
+"nome": "Hambúrguer bovino congelado 670g",
+"categoria": "alimentício",
+"unidade": "caixa 12 un",
+"preco_unitario": 31.98
+},
+{
+"nome": "Detergente líquido 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 45.41
+},
+{
+"nome": "Sabão em pó 1kg",
+"categoria": "não-alimentício",
+"unidade": "caixa 1 kg",
+"preco_unitario": 23.36
+},
+{
+"nome": "Sabão líquido 1L",
+"categoria": "não-alimentício",
+"unidade": "frasco 1 L",
+"preco_unitario": 23.95
+},
+{
+"nome": "Amaciante para roupas 2L",
+"categoria": "não-alimentício",
+"unidade": "frasco 2 L",
+"preco_unitario": 34.33
+},
+{
+"nome": "Desinfetante para pisos 1L",
+"categoria": "não-alimentício",
+"unidade": "frasco 1 L",
+"preco_unitario": 28.54
+},
+{
+"nome": "Água sanitária 1L",
+"categoria": "não-alimentício",
+"unidade": "garrafa 1 L",
+"preco_unitario": 43.15
+},
+{
+"nome": "Lustra-móveis 200ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 200 ml",
+"preco_unitario": 39.5
+},
+{
+"nome": "Limpador multiuso 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 39.29
+},
+{
+"nome": "Esponja de aço 8 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 8 un",
+"preco_unitario": 27.24
+},
+{
+"nome": "Esponja de lavar louça 3 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 3 un",
+"preco_unitario": 35.19
+},
+{
+"nome": "Pano de prato",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 38.31
+},
+{
+"nome": "Pano multiuso 5 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 5 un",
+"preco_unitario": 25.75
+},
+{
+"nome": "Saco para lixo 30L 10 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 10 un",
+"preco_unitario": 36.31
+},
+{
+"nome": "Saco para lixo 50L 10 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 10 un",
+"preco_unitario": 45.41
+},
+{
+"nome": "Papel toalha 2 rolos",
+"categoria": "não-alimentício",
+"unidade": "pacote 2 un",
+"preco_unitario": 19.34
+},
+{
+"nome": "Guardanapo de papel 50 folhas",
+"categoria": "não-alimentício",
+"unidade": "pacote 50 un",
+"preco_unitario": 25.99
+},
+{
+"nome": "Papel alumínio 45cm x 4m",
+"categoria": "não-alimentício",
+"unidade": "rolo",
+"preco_unitario": 23.36
+},
+{
+"nome": "Filme de PVC 30m",
+"categoria": "não-alimentício",
+"unidade": "rolo",
+"preco_unitario": 40.5
+},
+{
+"nome": "Sabonete em barra 90g",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 31.28
+},
+{
+"nome": "Sabonete líquido 250ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 250 ml",
+"preco_unitario": 40.42
+},
+{
+"nome": "Shampoo 350ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 350 ml",
+"preco_unitario": 10.45
+},
+{
+"nome": "Condicionador 320ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 320 ml",
+"preco_unitario": 29.74
+},
+{
+"nome": "Creme dental 90g",
+"categoria": "não-alimentício",
+"unidade": "tubo 90 g",
+"preco_unitario": 33.74
+},
+{
+"nome": "Escova de dentes macia",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 28.16
+},
+{
+"nome": "Fio dental 50m",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 46.12
+},
+{
+"nome": "Enxaguante bucal 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 38.62
+},
+{
+"nome": "Papel higiênico folha dupla 4 rolos",
+"categoria": "não-alimentício",
+"unidade": "pacote 4 un",
+"preco_unitario": 39.85
+},
+{
+"nome": "Papel higiênico folha dupla 12 rolos",
+"categoria": "não-alimentício",
+"unidade": "pacote 12 un",
+"preco_unitario": 30.6
+},
+{
+"nome": "Haste flexível com algodão 75 unidades",
+"categoria": "não-alimentício",
+"unidade": "caixa 75 un",
+"preco_unitario": 34.33
+},
+{
+"nome": "Algodão em disco 50g",
+"categoria": "não-alimentício",
+"unidade": "pacote 50 g",
+"preco_unitario": 11.08
+},
+{
+"nome": "Absorvente higiênico 8 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 8 un",
+"preco_unitario": 12.18
+},
+{
+"nome": "Protetor diário 20 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 20 un",
+"preco_unitario": 40.59
+},
+{
+"nome": "Desodorante aerosol 150ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 150 ml",
+"preco_unitario": 33.56
+},
+{
+"nome": "Desodorante roll-on 50ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 50 ml",
+"preco_unitario": 40.86
+},
+{
+"nome": "Creme para pentear 300ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 300 ml",
+"preco_unitario": 17.65
+},
+{
+"nome": "Máscara capilar 300g",
+"categoria": "não-alimentício",
+"unidade": "pote 300 g",
+"preco_unitario": 23.33
+},
+{
+"nome": "Sabão em barra neutro 5 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 5 un",
+"preco_unitario": 12.55
+},
+{
+"nome": "Lava-louças em pasta 500g",
+"categoria": "não-alimentício",
+"unidade": "pote 500 g",
+"preco_unitario": 25.13
+},
+{
+"nome": "Limpador com amônia 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 44.82
+},
+{
+"nome": "Pedra sanitária 25g",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 36.19
+},
+{
+"nome": "Inseticida aerosol 300ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 300 ml",
+"preco_unitario": 13.92
+},
+{
+"nome": "Repelente de insetos 100ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 100 ml",
+"preco_unitario": 25.99
+},
+{
+"nome": "Fósforo maço com 10 caixas",
+"categoria": "não-alimentício",
+"unidade": "pacote 10 un",
+"preco_unitario": 38.3
+},
+{
+"nome": "Vela branca 8 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 8 un",
+"preco_unitario": 40.58
+},
+{
+"nome": "Lâmpada LED 9W",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 20.32
+},
+{
+"nome": "Pilha AA 2 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 2 un",
+"preco_unitario": 21.05
+},
+{
+"nome": "Pilha AAA 2 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 2 un",
+"preco_unitario": 10.95
+},
+{
+"nome": "Prendedor de roupas de madeira 12 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 12 un",
+"preco_unitario": 28.52
+},
+{
+"nome": "Prendedor de roupas de plástico 12 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 12 un",
+"preco_unitario": 28.16
+},
+{
+"nome": "Corda para varal 15m",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 39.54
+},
+{
+"nome": "Balde plástico 10L",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 37.1
+},
+{
+"nome": "Bacia plástica 15L",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 13.91
+},
+{
+"nome": "Vassoura de nylon",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 16.71
+},
+{
+"nome": "Rodo de borracha 40cm",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 44.02
+},
+{
+"nome": "Pá para lixo com cabo",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 21.36
+},
+{
+"nome": "Escova sanitária com suporte",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 12.08
+},
+{
+"nome": "Protetor solar FPS 30 120ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 120 ml",
+"preco_unitario": 29.56
+},
+{
+"nome": "Hidratante corporal 200ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 200 ml",
+"preco_unitario": 12.83
+},
+{
+"nome": "Creme para as mãos 50g",
+"categoria": "não-alimentício",
+"unidade": "tubo 50 g",
+"preco_unitario": 25.07
+},
+{
+"nome": "Lâmina de barbear descartável 2 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 2 un",
+"preco_unitario": 34.62
+},
+{
+"nome": "Creme de barbear 85g",
+"categoria": "não-alimentício",
+"unidade": "tubo 85 g",
+"preco_unitario": 25.75
+},
+{
+"nome": "Loção pós-barba 100ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 100 ml",
+"preco_unitario": 17.06
+},
+{
+"nome": "Desengordurante para cozinha 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 39.11
+},
+{
+"nome": "Limpa-vidros 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 44.13
+},
+{
+"nome": "Aromatizador de ambiente 360ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 360 ml",
+"preco_unitario": 39.75
+},
+{
+"nome": "Cera líquida para pisos 750ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 750 ml",
+"preco_unitario": 33.43
+},
+{
+"nome": "Tira-manchas em pó 420g",
+"categoria": "não-alimentício",
+"unidade": "pote 420 g",
+"preco_unitario": 27.67
+},
+{
+"nome": "Água de passar roupas 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 15.34
+},
+{
+"nome": "Luva de borracha para limpeza",
+"categoria": "não-alimentício",
+"unidade": "par",
+"preco_unitario": 21.05
+},
+{
+"nome": "Filtro de papel para café 30 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 30 un",
+"preco_unitario": 10.98
+},
+{
+"nome": "Copo descartável 200ml 100 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 100 un",
+"preco_unitario": 30.2
+},
+{
+"nome": "Prato descartável 10 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 10 un",
+"preco_unitario": 24.78
+},
+{
+"nome": "Talher descartável 10 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 10 un",
+"preco_unitario": 27.94
+},
+{
+"nome": "Canudo de papel 20 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 20 un",
+"preco_unitario": 15.63
+},
+{
+"nome": "Palito de dente 100 unidades",
+"categoria": "não-alimentício",
+"unidade": "caixa 100 un",
+"preco_unitario": 31.6
+}
+]
+},
+{
+"nome": "Supermercado 2",
+"cnpj": "23.456.789/0001-01",
+"produtos": [
+{
+"nome": "Arroz branco 5kg",
+"categoria": "alimentício",
+"unidade": "pacote 5 kg",
+"preco_unitario": 30.28
+},
+{
+"nome": "Arroz integral 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 7.37
+},
+{
+"nome": "Feijão carioca 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 14.19
+},
+{
+"nome": "Feijão preto 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 11.39
+},
+{
+"nome": "Açúcar refinado 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 34.69
+},
+{
+"nome": "Açúcar cristal 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 41.56
+},
+{
+"nome": "Café moído 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 45.39
+},
+{
+"nome": "Óleo de soja 900ml",
+"categoria": "alimentício",
+"unidade": "garrafa 900 ml",
+"preco_unitario": 38.86
+},
+{
+"nome": "Azeite de oliva 500ml",
+"categoria": "alimentício",
+"unidade": "garrafa 500 ml",
+"preco_unitario": 22.95
+},
+{
+"nome": "Farinha de trigo 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 7.42
+},
+{
+"nome": "Farinha de mandioca 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 43.15
+},
+{
+"nome": "Fubá de milho 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 43.34
+},
+{
+"nome": "Macarrão espaguete 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 12.82
+},
+{
+"nome": "Macarrão parafuso 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 12.98
+},
+{
+"nome": "Molho de tomate 340g",
+"categoria": "alimentício",
+"unidade": "sachê 340 g",
+"preco_unitario": 11.23
+},
+{
+"nome": "Extrato de tomate 130g",
+"categoria": "alimentício",
+"unidade": "lata 130 g",
+"preco_unitario": 22.14
+},
+{
+"nome": "Sal refinado 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 8.04
+},
+{
+"nome": "Leite integral 1L",
+"categoria": "alimentício",
+"unidade": "caixa 1 L",
+"preco_unitario": 20.91
+},
+{
+"nome": "Leite desnatado 1L",
+"categoria": "alimentício",
+"unidade": "caixa 1 L",
+"preco_unitario": 19.82
+},
+{
+"nome": "Leite em pó 400g",
+"categoria": "alimentício",
+"unidade": "lata 400 g",
+"preco_unitario": 40.09
+},
+{
+"nome": "Manteiga com sal 200g",
+"categoria": "alimentício",
+"unidade": "pote 200 g",
+"preco_unitario": 29.83
+},
+{
+"nome": "Margarina 500g",
+"categoria": "alimentício",
+"unidade": "pote 500 g",
+"preco_unitario": 16.48
+},
+{
+"nome": "Requeijão cremoso 200g",
+"categoria": "alimentício",
+"unidade": "copo 200 g",
+"preco_unitario": 13.06
+},
+{
+"nome": "Queijo muçarela 100g",
+"categoria": "alimentício",
+"unidade": "bandeja 100 g",
+"preco_unitario": 22.42
+},
+{
+"nome": "Queijo prato 100g",
+"categoria": "alimentício",
+"unidade": "bandeja 100 g",
+"preco_unitario": 39.5
+},
+{
+"nome": "Presunto cozido 100g",
+"categoria": "alimentício",
+"unidade": "bandeja 100 g",
+"preco_unitario": 39.38
+},
+{
+"nome": "Iogurte natural 170g",
+"categoria": "alimentício",
+"unidade": "pote 170 g",
+"preco_unitario": 33.68
+},
+{
+"nome": "Creme de leite 200g",
+"categoria": "alimentício",
+"unidade": "caixa 200 g",
+"preco_unitario": 21.04
+},
+{
+"nome": "Leite condensado 395g",
+"categoria": "alimentício",
+"unidade": "caixa 395 g",
+"preco_unitario": 27.64
+},
+{
+"nome": "Ovos brancos 12 unidades",
+"categoria": "alimentício",
+"unidade": "bandeja 12 un",
+"preco_unitario": 32.84
+},
+{
+"nome": "Pão de fôrma 400g",
+"categoria": "alimentício",
+"unidade": "pacote 400 g",
+"preco_unitario": 31.54
+},
+{
+"nome": "Pão integral 400g",
+"categoria": "alimentício",
+"unidade": "pacote 400 g",
+"preco_unitario": 30.14
+},
+{
+"nome": "Biscoito salgado 300g",
+"categoria": "alimentício",
+"unidade": "pacote 300 g",
+"preco_unitario": 17.11
+},
+{
+"nome": "Biscoito recheado 130g",
+"categoria": "alimentício",
+"unidade": "pacote 130 g",
+"preco_unitario": 15.65
+},
+{
+"nome": "Biscoito maizena 400g",
+"categoria": "alimentício",
+"unidade": "pacote 400 g",
+"preco_unitario": 10.97
+},
+{
+"nome": "Achocolatado em pó 400g",
+"categoria": "alimentício",
+"unidade": "pote 400 g",
+"preco_unitario": 27.27
+},
+{
+"nome": "Cereal matinal 300g",
+"categoria": "alimentício",
+"unidade": "caixa 300 g",
+"preco_unitario": 20.14
+},
+{
+"nome": "Aveia em flocos 170g",
+"categoria": "alimentício",
+"unidade": "caixa 170 g",
+"preco_unitario": 37.15
+},
+{
+"nome": "Milho de pipoca 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 21.31
+},
+{
+"nome": "Lentilha 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 11.23
+},
+{
+"nome": "Grão-de-bico 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 30.12
+},
+{
+"nome": "Milho verde em conserva 170g",
+"categoria": "alimentício",
+"unidade": "lata 170 g",
+"preco_unitario": 14.18
+},
+{
+"nome": "Ervilha em conserva 170g",
+"categoria": "alimentício",
+"unidade": "lata 170 g",
+"preco_unitario": 40.0
+},
+{
+"nome": "Sardinha em lata 125g",
+"categoria": "alimentício",
+"unidade": "lata 125 g",
+"preco_unitario": 24.38
+},
+{
+"nome": "Atum em pedaços 170g",
+"categoria": "alimentício",
+"unidade": "lata 170 g",
+"preco_unitario": 27.76
+},
+{
+"nome": "Azeitona verde 150g",
+"categoria": "alimentício",
+"unidade": "sachê 150 g",
+"preco_unitario": 25.18
+},
+{
+"nome": "Maionese 500g",
+"categoria": "alimentício",
+"unidade": "pote 500 g",
+"preco_unitario": 15.65
+},
+{
+"nome": "Ketchup 390g",
+"categoria": "alimentício",
+"unidade": "frasco 390 g",
+"preco_unitario": 25.21
+},
+{
+"nome": "Mostarda 200g",
+"categoria": "alimentício",
+"unidade": "frasco 200 g",
+"preco_unitario": 23.49
+},
+{
+"nome": "Vinagre de álcool 750ml",
+"categoria": "alimentício",
+"unidade": "garrafa 750 ml",
+"preco_unitario": 23.51
+},
+{
+"nome": "Vinagre de maçã 500ml",
+"categoria": "alimentício",
+"unidade": "garrafa 500 ml",
+"preco_unitario": 38.69
+},
+{
+"nome": "Chá preto 25 envelopes",
+"categoria": "alimentício",
+"unidade": "caixa 25 un",
+"preco_unitario": 30.15
+},
+{
+"nome": "Chá de camomila 15 envelopes",
+"categoria": "alimentício",
+"unidade": "caixa 15 un",
+"preco_unitario": 33.68
+},
+{
+"nome": "Suco concentrado 500ml",
+"categoria": "alimentício",
+"unidade": "garrafa 500 ml",
+"preco_unitario": 11.9
+},
+{
+"nome": "Refrigerante cola 2L",
+"categoria": "alimentício",
+"unidade": "garrafa 2 L",
+"preco_unitario": 40.23
+},
+{
+"nome": "Refrigerante guaraná 2L",
+"categoria": "alimentício",
+"unidade": "garrafa 2 L",
+"preco_unitario": 11.1
+},
+{
+"nome": "Água mineral sem gás 1.5L",
+"categoria": "alimentício",
+"unidade": "garrafa 1.5 L",
+"preco_unitario": 43.63
+},
+{
+"nome": "Água mineral com gás 500ml",
+"categoria": "alimentício",
+"unidade": "garrafa 500 ml",
+"preco_unitario": 13.5
+},
+{
+"nome": "Polpa de fruta congelada 100g",
+"categoria": "alimentício",
+"unidade": "pacote 100 g",
+"preco_unitario": 32.55
+},
+{
+"nome": "Batata palha 120g",
+"categoria": "alimentício",
+"unidade": "pacote 120 g",
+"preco_unitario": 12.35
+},
+{
+"nome": "Amendoim torrado 150g",
+"categoria": "alimentício",
+"unidade": "pacote 150 g",
+"preco_unitario": 17.26
+},
+{
+"nome": "Castanha-de-caju 100g",
+"categoria": "alimentício",
+"unidade": "pacote 100 g",
+"preco_unitario": 41.52
+},
+{
+"nome": "Goiabada 300g",
+"categoria": "alimentício",
+"unidade": "pacote 300 g",
+"preco_unitario": 28.5
+},
+{
+"nome": "Doce de leite 400g",
+"categoria": "alimentício",
+"unidade": "pote 400 g",
+"preco_unitario": 40.75
+},
+{
+"nome": "Gelatina em pó 20g",
+"categoria": "alimentício",
+"unidade": "pacote 20 g",
+"preco_unitario": 25.04
+},
+{
+"nome": "Pudim em pó 50g",
+"categoria": "alimentício",
+"unidade": "pacote 50 g",
+"preco_unitario": 14.89
+},
+{
+"nome": "Fermento em pó químico 100g",
+"categoria": "alimentício",
+"unidade": "pote 100 g",
+"preco_unitario": 34.2
+},
+{
+"nome": "Coco ralado 100g",
+"categoria": "alimentício",
+"unidade": "pacote 100 g",
+"preco_unitario": 18.3
+},
+{
+"nome": "Leite de coco 200ml",
+"categoria": "alimentício",
+"unidade": "vidro 200 ml",
+"preco_unitario": 34.61
+},
+{
+"nome": "Tempero completo 300g",
+"categoria": "alimentício",
+"unidade": "pote 300 g",
+"preco_unitario": 30.29
+},
+{
+"nome": "Caldo de galinha 114g",
+"categoria": "alimentício",
+"unidade": "caixa 6 un",
+"preco_unitario": 25.84
+},
+{
+"nome": "Pimenta-do-reino moída 50g",
+"categoria": "alimentício",
+"unidade": "pacote 50 g",
+"preco_unitario": 31.06
+},
+{
+"nome": "Salsicha congelada 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 42.66
+},
+{
+"nome": "Linguiça calabresa 400g",
+"categoria": "alimentício",
+"unidade": "pacote 400 g",
+"preco_unitario": 21.05
+},
+{
+"nome": "Hambúrguer bovino congelado 670g",
+"categoria": "alimentício",
+"unidade": "caixa 12 un",
+"preco_unitario": 32.18
+},
+{
+"nome": "Detergente líquido 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 45.89
+},
+{
+"nome": "Sabão em pó 1kg",
+"categoria": "não-alimentício",
+"unidade": "caixa 1 kg",
+"preco_unitario": 23.08
+},
+{
+"nome": "Sabão líquido 1L",
+"categoria": "não-alimentício",
+"unidade": "frasco 1 L",
+"preco_unitario": 23.86
+},
+{
+"nome": "Amaciante para roupas 2L",
+"categoria": "não-alimentício",
+"unidade": "frasco 2 L",
+"preco_unitario": 34.09
+},
+{
+"nome": "Desinfetante para pisos 1L",
+"categoria": "não-alimentício",
+"unidade": "frasco 1 L",
+"preco_unitario": 28.32
+},
+{
+"nome": "Água sanitária 1L",
+"categoria": "não-alimentício",
+"unidade": "garrafa 1 L",
+"preco_unitario": 43.08
+},
+{
+"nome": "Lustra-móveis 200ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 200 ml",
+"preco_unitario": 39.88
+},
+{
+"nome": "Limpador multiuso 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 39.5
+},
+{
+"nome": "Esponja de aço 8 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 8 un",
+"preco_unitario": 27.27
+},
+{
+"nome": "Esponja de lavar louça 3 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 3 un",
+"preco_unitario": 35.12
+},
+{
+"nome": "Pano de prato",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 38.69
+},
+{
+"nome": "Pano multiuso 5 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 5 un",
+"preco_unitario": 25.8
+},
+{
+"nome": "Saco para lixo 30L 10 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 10 un",
+"preco_unitario": 36.3
+},
+{
+"nome": "Saco para lixo 50L 10 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 10 un",
+"preco_unitario": 45.19
+},
+{
+"nome": "Papel toalha 2 rolos",
+"categoria": "não-alimentício",
+"unidade": "pacote 2 un",
+"preco_unitario": 19.14
+},
+{
+"nome": "Guardanapo de papel 50 folhas",
+"categoria": "não-alimentício",
+"unidade": "pacote 50 un",
+"preco_unitario": 26.04
+},
+{
+"nome": "Papel alumínio 45cm x 4m",
+"categoria": "não-alimentício",
+"unidade": "rolo",
+"preco_unitario": 23.85
+},
+{
+"nome": "Filme de PVC 30m",
+"categoria": "não-alimentício",
+"unidade": "rolo",
+"preco_unitario": 40.85
+},
+{
+"nome": "Sabonete em barra 90g",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 30.98
+},
+{
+"nome": "Sabonete líquido 250ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 250 ml",
+"preco_unitario": 40.52
+},
+{
+"nome": "Shampoo 350ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 350 ml",
+"preco_unitario": 10.32
+},
+{
+"nome": "Condicionador 320ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 320 ml",
+"preco_unitario": 29.89
+},
+{
+"nome": "Creme dental 90g",
+"categoria": "não-alimentício",
+"unidade": "tubo 90 g",
+"preco_unitario": 33.68
+},
+{
+"nome": "Escova de dentes macia",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 28.25
+},
+{
+"nome": "Fio dental 50m",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 45.89
+},
+{
+"nome": "Enxaguante bucal 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 38.2
+},
+{
+"nome": "Papel higiênico folha dupla 4 rolos",
+"categoria": "não-alimentício",
+"unidade": "pacote 4 un",
+"preco_unitario": 39.5
+},
+{
+"nome": "Papel higiênico folha dupla 12 rolos",
+"categoria": "não-alimentício",
+"unidade": "pacote 12 un",
+"preco_unitario": 30.82
+},
+{
+"nome": "Haste flexível com algodão 75 unidades",
+"categoria": "não-alimentício",
+"unidade": "caixa 75 un",
+"preco_unitario": 34.01
+},
+{
+"nome": "Algodão em disco 50g",
+"categoria": "não-alimentício",
+"unidade": "pacote 50 g",
+"preco_unitario": 11.23
+},
+{
+"nome": "Absorvente higiênico 8 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 8 un",
+"preco_unitario": 12.0
+},
+{
+"nome": "Protetor diário 20 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 20 un",
+"preco_unitario": 40.23
+},
+{
+"nome": "Desodorante aerosol 150ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 150 ml",
+"preco_unitario": 33.42
+},
+{
+"nome": "Desodorante roll-on 50ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 50 ml",
+"preco_unitario": 40.5
+},
+{
+"nome": "Creme para pentear 300ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 300 ml",
+"preco_unitario": 17.58
+},
+{
+"nome": "Máscara capilar 300g",
+"categoria": "não-alimentício",
+"unidade": "pote 300 g",
+"preco_unitario": 23.01
+},
+{
+"nome": "Sabão em barra neutro 5 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 5 un",
+"preco_unitario": 12.82
+},
+{
+"nome": "Lava-louças em pasta 500g",
+"categoria": "não-alimentício",
+"unidade": "pote 500 g",
+"preco_unitario": 25.21
+},
+{
+"nome": "Limpador com amônia 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 44.89
+},
+{
+"nome": "Pedra sanitária 25g",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 36.5
+},
+{
+"nome": "Inseticida aerosol 300ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 300 ml",
+"preco_unitario": 14.18
+},
+{
+"nome": "Repelente de insetos 100ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 100 ml",
+"preco_unitario": 26.04
+},
+{
+"nome": "Fósforo maço com 10 caixas",
+"categoria": "não-alimentício",
+"unidade": "pacote 10 un",
+"preco_unitario": 38.69
+},
+{
+"nome": "Vela branca 8 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 8 un",
+"preco_unitario": 40.2
+},
+{
+"nome": "Lâmpada LED 9W",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 19.82
+},
+{
+"nome": "Pilha AA 2 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 2 un",
+"preco_unitario": 21.04
+},
+{
+"nome": "Pilha AAA 2 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 2 un",
+"preco_unitario": 11.1
+},
+{
+"nome": "Prendedor de roupas de madeira 12 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 12 un",
+"preco_unitario": 28.5
+},
+{
+"nome": "Prendedor de roupas de plástico 12 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 12 un",
+"preco_unitario": 28.25
+},
+{
+"nome": "Corda para varal 15m",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 40.09
+},
+{
+"nome": "Balde plástico 10L",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 37.15
+},
+{
+"nome": "Bacia plástica 15L",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 13.5
+},
+{
+"nome": "Vassoura de nylon",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 16.48
+},
+{
+"nome": "Rodo de borracha 40cm",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 43.34
+},
+{
+"nome": "Pá para lixo com cabo",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 21.05
+},
+{
+"nome": "Escova sanitária com suporte",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 11.9
+},
+{
+"nome": "Protetor solar FPS 30 120ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 120 ml",
+"preco_unitario": 29.83
+},
+{
+"nome": "Hidratante corporal 200ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 200 ml",
+"preco_unitario": 13.06
+},
+{
+"nome": "Creme para as mãos 50g",
+"categoria": "não-alimentício",
+"unidade": "tubo 50 g",
+"preco_unitario": 25.18
+},
+{
+"nome": "Lâmina de barbear descartável 2 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 2 un",
+"preco_unitario": 34.2
+},
+{
+"nome": "Creme de barbear 85g",
+"categoria": "não-alimentício",
+"unidade": "tubo 85 g",
+"preco_unitario": 25.84
+},
+{
+"nome": "Loção pós-barba 100ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 100 ml",
+"preco_unitario": 17.11
+},
+{
+"nome": "Desengordurante para cozinha 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 39.5
+},
+{
+"nome": "Limpa-vidros 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 43.63
+},
+{
+"nome": "Aromatizador de ambiente 360ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 360 ml",
+"preco_unitario": 39.38
+},
+{
+"nome": "Cera líquida para pisos 750ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 750 ml",
+"preco_unitario": 33.68
+},
+{
+"nome": "Tira-manchas em pó 420g",
+"categoria": "não-alimentício",
+"unidade": "pote 420 g",
+"preco_unitario": 27.64
+},
+{
+"nome": "Água de passar roupas 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 15.65
+},
+{
+"nome": "Luva de borracha para limpeza",
+"categoria": "não-alimentício",
+"unidade": "par",
+"preco_unitario": 21.04
+},
+{
+"nome": "Filtro de papel para café 30 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 30 un",
+"preco_unitario": 11.23
+},
+{
+"nome": "Copo descartável 200ml 100 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 100 un",
+"preco_unitario": 30.12
+},
+{
+"nome": "Prato descartável 10 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 10 un",
+"preco_unitario": 24.38
+},
+{
+"nome": "Talher descartável 10 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 10 un",
+"preco_unitario": 27.76
+},
+{
+"nome": "Canudo de papel 20 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 20 un",
+"preco_unitario": 15.65
+},
+{
+"nome": "Palito de dente 100 unidades",
+"categoria": "não-alimentício",
+"unidade": "caixa 100 un",
+"preco_unitario": 31.85
+}
+]
+},
+{
+"nome": "Supermercado 3",
+"cnpj": "34.567.890/0001-12",
+"produtos": [
+{
+"nome": "Arroz branco 5kg",
+"categoria": "alimentício",
+"unidade": "pacote 5 kg",
+"preco_unitario": 30.82
+},
+{
+"nome": "Arroz integral 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 7.82
+},
+{
+"nome": "Feijão carioca 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 14.88
+},
+{
+"nome": "Feijão preto 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 12.18
+},
+{
+"nome": "Açúcar refinado 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 35.58
+},
+{
+"nome": "Açúcar cristal 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 42.49
+},
+{
+"nome": "Café moído 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 45.86
+},
+{
+"nome": "Óleo de soja 900ml",
+"categoria": "alimentício",
+"unidade": "garrafa 900 ml",
+"preco_unitario": 40.43
+},
+{
+"nome": "Azeite de oliva 500ml",
+"categoria": "alimentício",
+"unidade": "garrafa 500 ml",
+"preco_unitario": 23.0
+},
+{
+"nome": "Farinha de trigo 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 8.98
+},
+{
+"nome": "Farinha de mandioca 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 44.48
+},
+{
+"nome": "Fubá de milho 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 44.99
+},
+{
+"nome": "Macarrão espaguete 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 14.03
+},
+{
+"nome": "Macarrão parafuso 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 13.13
+},
+{
+"nome": "Molho de tomate 340g",
+"categoria": "alimentício",
+"unidade": "sachê 340 g",
+"preco_unitario": 11.93
+},
+{
+"nome": "Extrato de tomate 130g",
+"categoria": "alimentício",
+"unidade": "lata 130 g",
+"preco_unitario": 23.15
+},
+{
+"nome": "Sal refinado 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 9.51
+},
+{
+"nome": "Leite integral 1L",
+"categoria": "alimentício",
+"unidade": "caixa 1 L",
+"preco_unitario": 21.32
+},
+{
+"nome": "Leite desnatado 1L",
+"categoria": "alimentício",
+"unidade": "caixa 1 L",
+"preco_unitario": 21.29
+},
+{
+"nome": "Leite em pó 400g",
+"categoria": "alimentício",
+"unidade": "lata 400 g",
+"preco_unitario": 40.51
+},
+{
+"nome": "Manteiga com sal 200g",
+"categoria": "alimentício",
+"unidade": "pote 200 g",
+"preco_unitario": 30.53
+},
+{
+"nome": "Margarina 500g",
+"categoria": "alimentício",
+"unidade": "pote 500 g",
+"preco_unitario": 17.68
+},
+{
+"nome": "Requeijão cremoso 200g",
+"categoria": "alimentício",
+"unidade": "copo 200 g",
+"preco_unitario": 13.8
+},
+{
+"nome": "Queijo muçarela 100g",
+"categoria": "alimentício",
+"unidade": "bandeja 100 g",
+"preco_unitario": 23.15
+},
+{
+"nome": "Queijo prato 100g",
+"categoria": "alimentício",
+"unidade": "bandeja 100 g",
+"preco_unitario": 40.08
+},
+{
+"nome": "Presunto cozido 100g",
+"categoria": "alimentício",
+"unidade": "bandeja 100 g",
+"preco_unitario": 40.72
+},
+{
+"nome": "Iogurte natural 170g",
+"categoria": "alimentício",
+"unidade": "pote 170 g",
+"preco_unitario": 34.4
+},
+{
+"nome": "Creme de leite 200g",
+"categoria": "alimentício",
+"unidade": "caixa 200 g",
+"preco_unitario": 22.02
+},
+{
+"nome": "Leite condensado 395g",
+"categoria": "alimentício",
+"unidade": "caixa 395 g",
+"preco_unitario": 28.64
+},
+{
+"nome": "Ovos brancos 12 unidades",
+"categoria": "alimentício",
+"unidade": "bandeja 12 un",
+"preco_unitario": 33.77
+},
+{
+"nome": "Pão de fôrma 400g",
+"categoria": "alimentício",
+"unidade": "pacote 400 g",
+"preco_unitario": 32.73
+},
+{
+"nome": "Pão integral 400g",
+"categoria": "alimentício",
+"unidade": "pacote 400 g",
+"preco_unitario": 31.6
+},
+{
+"nome": "Biscoito salgado 300g",
+"categoria": "alimentício",
+"unidade": "pacote 300 g",
+"preco_unitario": 18.03
+},
+{
+"nome": "Biscoito recheado 130g",
+"categoria": "alimentício",
+"unidade": "pacote 130 g",
+"preco_unitario": 16.31
+},
+{
+"nome": "Biscoito maizena 400g",
+"categoria": "alimentício",
+"unidade": "pacote 400 g",
+"preco_unitario": 12.2
+},
+{
+"nome": "Achocolatado em pó 400g",
+"categoria": "alimentício",
+"unidade": "pote 400 g",
+"preco_unitario": 28.47
+},
+{
+"nome": "Cereal matinal 300g",
+"categoria": "alimentício",
+"unidade": "caixa 300 g",
+"preco_unitario": 21.28
+},
+{
+"nome": "Aveia em flocos 170g",
+"categoria": "alimentício",
+"unidade": "caixa 170 g",
+"preco_unitario": 38.07
+},
+{
+"nome": "Milho de pipoca 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 22.02
+},
+{
+"nome": "Lentilha 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 11.95
+},
+{
+"nome": "Grão-de-bico 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 31.17
+},
+{
+"nome": "Milho verde em conserva 170g",
+"categoria": "alimentício",
+"unidade": "lata 170 g",
+"preco_unitario": 14.89
+},
+{
+"nome": "Ervilha em conserva 170g",
+"categoria": "alimentício",
+"unidade": "lata 170 g",
+"preco_unitario": 41.03
+},
+{
+"nome": "Sardinha em lata 125g",
+"categoria": "alimentício",
+"unidade": "lata 125 g",
+"preco_unitario": 25.75
+},
+{
+"nome": "Atum em pedaços 170g",
+"categoria": "alimentício",
+"unidade": "lata 170 g",
+"preco_unitario": 28.91
+},
+{
+"nome": "Azeitona verde 150g",
+"categoria": "alimentício",
+"unidade": "sachê 150 g",
+"preco_unitario": 26.04
+},
+{
+"nome": "Maionese 500g",
+"categoria": "alimentício",
+"unidade": "pote 500 g",
+"preco_unitario": 16.6
+},
+{
+"nome": "Ketchup 390g",
+"categoria": "alimentício",
+"unidade": "frasco 390 g",
+"preco_unitario": 26.1
+},
+{
+"nome": "Mostarda 200g",
+"categoria": "alimentício",
+"unidade": "frasco 200 g",
+"preco_unitario": 24.33
+},
+{
+"nome": "Vinagre de álcool 750ml",
+"categoria": "alimentício",
+"unidade": "garrafa 750 ml",
+"preco_unitario": 24.79
+},
+{
+"nome": "Vinagre de maçã 500ml",
+"categoria": "alimentício",
+"unidade": "garrafa 500 ml",
+"preco_unitario": 39.27
+},
+{
+"nome": "Chá preto 25 envelopes",
+"categoria": "alimentício",
+"unidade": "caixa 25 un",
+"preco_unitario": 30.82
+},
+{
+"nome": "Chá de camomila 15 envelopes",
+"categoria": "alimentício",
+"unidade": "caixa 15 un",
+"preco_unitario": 34.98
+},
+{
+"nome": "Suco concentrado 500ml",
+"categoria": "alimentício",
+"unidade": "garrafa 500 ml",
+"preco_unitario": 13.05
+},
+{
+"nome": "Refrigerante cola 2L",
+"categoria": "alimentício",
+"unidade": "garrafa 2 L",
+"preco_unitario": 41.56
+},
+{
+"nome": "Refrigerante guaraná 2L",
+"categoria": "alimentício",
+"unidade": "garrafa 2 L",
+"preco_unitario": 11.92
+},
+{
+"nome": "Água mineral sem gás 1.5L",
+"categoria": "alimentício",
+"unidade": "garrafa 1.5 L",
+"preco_unitario": 45.1
+},
+{
+"nome": "Água mineral com gás 500ml",
+"categoria": "alimentício",
+"unidade": "garrafa 500 ml",
+"preco_unitario": 14.88
+},
+{
+"nome": "Polpa de fruta congelada 100g",
+"categoria": "alimentício",
+"unidade": "pacote 100 g",
+"preco_unitario": 33.82
+},
+{
+"nome": "Batata palha 120g",
+"categoria": "alimentício",
+"unidade": "pacote 120 g",
+"preco_unitario": 12.98
+},
+{
+"nome": "Amendoim torrado 150g",
+"categoria": "alimentício",
+"unidade": "pacote 150 g",
+"preco_unitario": 18.48
+},
+{
+"nome": "Castanha-de-caju 100g",
+"categoria": "alimentício",
+"unidade": "pacote 100 g",
+"preco_unitario": 42.22
+},
+{
+"nome": "Goiabada 300g",
+"categoria": "alimentício",
+"unidade": "pacote 300 g",
+"preco_unitario": 29.49
+},
+{
+"nome": "Doce de leite 400g",
+"categoria": "alimentício",
+"unidade": "pote 400 g",
+"preco_unitario": 41.82
+},
+{
+"nome": "Gelatina em pó 20g",
+"categoria": "alimentício",
+"unidade": "pacote 20 g",
+"preco_unitario": 26.1
+},
+{
+"nome": "Pudim em pó 50g",
+"categoria": "alimentício",
+"unidade": "pacote 50 g",
+"preco_unitario": 16.08
+},
+{
+"nome": "Fermento em pó químico 100g",
+"categoria": "alimentício",
+"unidade": "pote 100 g",
+"preco_unitario": 35.59
+},
+{
+"nome": "Coco ralado 100g",
+"categoria": "alimentício",
+"unidade": "pacote 100 g",
+"preco_unitario": 19.2
+},
+{
+"nome": "Leite de coco 200ml",
+"categoria": "alimentício",
+"unidade": "vidro 200 ml",
+"preco_unitario": 35.17
+},
+{
+"nome": "Tempero completo 300g",
+"categoria": "alimentício",
+"unidade": "pote 300 g",
+"preco_unitario": 31.65
+},
+{
+"nome": "Caldo de galinha 114g",
+"categoria": "alimentício",
+"unidade": "caixa 6 un",
+"preco_unitario": 26.72
+},
+{
+"nome": "Pimenta-do-reino moída 50g",
+"categoria": "alimentício",
+"unidade": "pacote 50 g",
+"preco_unitario": 31.97
+},
+{
+"nome": "Salsicha congelada 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 43.63
+},
+{
+"nome": "Linguiça calabresa 400g",
+"categoria": "alimentício",
+"unidade": "pacote 400 g",
+"preco_unitario": 22.33
+},
+{
+"nome": "Hambúrguer bovino congelado 670g",
+"categoria": "alimentício",
+"unidade": "caixa 12 un",
+"preco_unitario": 32.95
+},
+{
+"nome": "Detergente líquido 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 46.38
+},
+{
+"nome": "Sabão em pó 1kg",
+"categoria": "não-alimentício",
+"unidade": "caixa 1 kg",
+"preco_unitario": 24.33
+},
+{
+"nome": "Sabão líquido 1L",
+"categoria": "não-alimentício",
+"unidade": "frasco 1 L",
+"preco_unitario": 24.92
+},
+{
+"nome": "Amaciante para roupas 2L",
+"categoria": "não-alimentício",
+"unidade": "frasco 2 L",
+"preco_unitario": 35.3
+},
+{
+"nome": "Desinfetante para pisos 1L",
+"categoria": "não-alimentício",
+"unidade": "frasco 1 L",
+"preco_unitario": 29.51
+},
+{
+"nome": "Água sanitária 1L",
+"categoria": "não-alimentício",
+"unidade": "garrafa 1 L",
+"preco_unitario": 44.12
+},
+{
+"nome": "Lustra-móveis 200ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 200 ml",
+"preco_unitario": 40.47
+},
+{
+"nome": "Limpador multiuso 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 40.26
+},
+{
+"nome": "Esponja de aço 8 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 8 un",
+"preco_unitario": 28.21
+},
+{
+"nome": "Esponja de lavar louça 3 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 3 un",
+"preco_unitario": 36.16
+},
+{
+"nome": "Pano de prato",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 39.28
+},
+{
+"nome": "Pano multiuso 5 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 5 un",
+"preco_unitario": 26.72
+},
+{
+"nome": "Saco para lixo 30L 10 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 10 un",
+"preco_unitario": 37.28
+},
+{
+"nome": "Saco para lixo 50L 10 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 10 un",
+"preco_unitario": 46.38
+},
+{
+"nome": "Papel toalha 2 rolos",
+"categoria": "não-alimentício",
+"unidade": "pacote 2 un",
+"preco_unitario": 20.31
+},
+{
+"nome": "Guardanapo de papel 50 folhas",
+"categoria": "não-alimentício",
+"unidade": "pacote 50 un",
+"preco_unitario": 26.96
+},
+{
+"nome": "Papel alumínio 45cm x 4m",
+"categoria": "não-alimentício",
+"unidade": "rolo",
+"preco_unitario": 24.33
+},
+{
+"nome": "Filme de PVC 30m",
+"categoria": "não-alimentício",
+"unidade": "rolo",
+"preco_unitario": 41.47
+},
+{
+"nome": "Sabonete em barra 90g",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 32.25
+},
+{
+"nome": "Sabonete líquido 250ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 250 ml",
+"preco_unitario": 41.39
+},
+{
+"nome": "Shampoo 350ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 350 ml",
+"preco_unitario": 11.42
+},
+{
+"nome": "Condicionador 320ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 320 ml",
+"preco_unitario": 30.71
+},
+{
+"nome": "Creme dental 90g",
+"categoria": "não-alimentício",
+"unidade": "tubo 90 g",
+"preco_unitario": 34.71
+},
+{
+"nome": "Escova de dentes macia",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 29.13
+},
+{
+"nome": "Fio dental 50m",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 47.09
+},
+{
+"nome": "Enxaguante bucal 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 39.59
+},
+{
+"nome": "Papel higiênico folha dupla 4 rolos",
+"categoria": "não-alimentício",
+"unidade": "pacote 4 un",
+"preco_unitario": 40.82
+},
+{
+"nome": "Papel higiênico folha dupla 12 rolos",
+"categoria": "não-alimentício",
+"unidade": "pacote 12 un",
+"preco_unitario": 31.57
+},
+{
+"nome": "Haste flexível com algodão 75 unidades",
+"categoria": "não-alimentício",
+"unidade": "caixa 75 un",
+"preco_unitario": 35.3
+},
+{
+"nome": "Algodão em disco 50g",
+"categoria": "não-alimentício",
+"unidade": "pacote 50 g",
+"preco_unitario": 12.05
+},
+{
+"nome": "Absorvente higiênico 8 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 8 un",
+"preco_unitario": 13.15
+},
+{
+"nome": "Protetor diário 20 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 20 un",
+"preco_unitario": 41.56
+},
+{
+"nome": "Desodorante aerosol 150ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 150 ml",
+"preco_unitario": 34.53
+},
+{
+"nome": "Desodorante roll-on 50ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 50 ml",
+"preco_unitario": 41.83
+},
+{
+"nome": "Creme para pentear 300ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 300 ml",
+"preco_unitario": 18.62
+},
+{
+"nome": "Máscara capilar 300g",
+"categoria": "não-alimentício",
+"unidade": "pote 300 g",
+"preco_unitario": 24.3
+},
+{
+"nome": "Sabão em barra neutro 5 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 5 un",
+"preco_unitario": 13.52
+},
+{
+"nome": "Lava-louças em pasta 500g",
+"categoria": "não-alimentício",
+"unidade": "pote 500 g",
+"preco_unitario": 26.1
+},
+{
+"nome": "Limpador com amônia 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 45.79
+},
+{
+"nome": "Pedra sanitária 25g",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 37.16
+},
+{
+"nome": "Inseticida aerosol 300ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 300 ml",
+"preco_unitario": 14.89
+},
+{
+"nome": "Repelente de insetos 100ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 100 ml",
+"preco_unitario": 26.96
+},
+{
+"nome": "Fósforo maço com 10 caixas",
+"categoria": "não-alimentício",
+"unidade": "pacote 10 un",
+"preco_unitario": 39.27
+},
+{
+"nome": "Vela branca 8 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 8 un",
+"preco_unitario": 41.55
+},
+{
+"nome": "Lâmpada LED 9W",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 21.29
+},
+{
+"nome": "Pilha AA 2 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 2 un",
+"preco_unitario": 22.02
+},
+{
+"nome": "Pilha AAA 2 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 2 un",
+"preco_unitario": 11.92
+},
+{
+"nome": "Prendedor de roupas de madeira 12 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 12 un",
+"preco_unitario": 29.49
+},
+{
+"nome": "Prendedor de roupas de plástico 12 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 12 un",
+"preco_unitario": 29.13
+},
+{
+"nome": "Corda para varal 15m",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 40.51
+},
+{
+"nome": "Balde plástico 10L",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 38.07
+},
+{
+"nome": "Bacia plástica 15L",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 14.88
+},
+{
+"nome": "Vassoura de nylon",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 17.68
+},
+{
+"nome": "Rodo de borracha 40cm",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 44.99
+},
+{
+"nome": "Pá para lixo com cabo",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 22.33
+},
+{
+"nome": "Escova sanitária com suporte",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 13.05
+},
+{
+"nome": "Protetor solar FPS 30 120ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 120 ml",
+"preco_unitario": 30.53
+},
+{
+"nome": "Hidratante corporal 200ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 200 ml",
+"preco_unitario": 13.8
+},
+{
+"nome": "Creme para as mãos 50g",
+"categoria": "não-alimentício",
+"unidade": "tubo 50 g",
+"preco_unitario": 26.04
+},
+{
+"nome": "Lâmina de barbear descartável 2 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 2 un",
+"preco_unitario": 35.59
+},
+{
+"nome": "Creme de barbear 85g",
+"categoria": "não-alimentício",
+"unidade": "tubo 85 g",
+"preco_unitario": 26.72
+},
+{
+"nome": "Loção pós-barba 100ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 100 ml",
+"preco_unitario": 18.03
+},
+{
+"nome": "Desengordurante para cozinha 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 40.08
+},
+{
+"nome": "Limpa-vidros 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 45.1
+},
+{
+"nome": "Aromatizador de ambiente 360ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 360 ml",
+"preco_unitario": 40.72
+},
+{
+"nome": "Cera líquida para pisos 750ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 750 ml",
+"preco_unitario": 34.4
+},
+{
+"nome": "Tira-manchas em pó 420g",
+"categoria": "não-alimentício",
+"unidade": "pote 420 g",
+"preco_unitario": 28.64
+},
+{
+"nome": "Água de passar roupas 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 16.31
+},
+{
+"nome": "Luva de borracha para limpeza",
+"categoria": "não-alimentício",
+"unidade": "par",
+"preco_unitario": 22.02
+},
+{
+"nome": "Filtro de papel para café 30 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 30 un",
+"preco_unitario": 11.95
+},
+{
+"nome": "Copo descartável 200ml 100 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 100 un",
+"preco_unitario": 31.17
+},
+{
+"nome": "Prato descartável 10 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 10 un",
+"preco_unitario": 25.75
+},
+{
+"nome": "Talher descartável 10 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 10 un",
+"preco_unitario": 28.91
+},
+{
+"nome": "Canudo de papel 20 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 20 un",
+"preco_unitario": 16.6
+},
+{
+"nome": "Palito de dente 100 unidades",
+"categoria": "não-alimentício",
+"unidade": "caixa 100 un",
+"preco_unitario": 32.57
+}
+]
+},
+{
+"nome": "Supermercado 4",
+"cnpj": "45.678.901/0001-23",
+"produtos": [
+{
+"nome": "Arroz branco 5kg",
+"categoria": "alimentício",
+"unidade": "pacote 5 kg",
+"preco_unitario": 29.5
+},
+{
+"nome": "Arroz integral 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 6.55
+},
+{
+"nome": "Feijão carioca 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 13.56
+},
+{
+"nome": "Feijão preto 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 10.87
+},
+{
+"nome": "Açúcar refinado 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 34.25
+},
+{
+"nome": "Açúcar cristal 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 41.17
+},
+{
+"nome": "Café moído 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 44.54
+},
+{
+"nome": "Óleo de soja 900ml",
+"categoria": "alimentício",
+"unidade": "garrafa 900 ml",
+"preco_unitario": 39.11
+},
+{
+"nome": "Azeite de oliva 500ml",
+"categoria": "alimentício",
+"unidade": "garrafa 500 ml",
+"preco_unitario": 21.68
+},
+{
+"nome": "Farinha de trigo 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 7.66
+},
+{
+"nome": "Farinha de mandioca 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 43.16
+},
+{
+"nome": "Fubá de milho 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 43.67
+},
+{
+"nome": "Macarrão espaguete 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 12.71
+},
+{
+"nome": "Macarrão parafuso 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 11.81
+},
+{
+"nome": "Molho de tomate 340g",
+"categoria": "alimentício",
+"unidade": "sachê 340 g",
+"preco_unitario": 10.61
+},
+{
+"nome": "Extrato de tomate 130g",
+"categoria": "alimentício",
+"unidade": "lata 130 g",
+"preco_unitario": 21.83
+},
+{
+"nome": "Sal refinado 1kg",
+"categoria": "alimentício",
+"unidade": "pacote 1 kg",
+"preco_unitario": 8.19
+},
+{
+"nome": "Leite integral 1L",
+"categoria": "alimentício",
+"unidade": "caixa 1 L",
+"preco_unitario": 20.0
+},
+{
+"nome": "Leite desnatado 1L",
+"categoria": "alimentício",
+"unidade": "caixa 1 L",
+"preco_unitario": 19.97
+},
+{
+"nome": "Leite em pó 400g",
+"categoria": "alimentício",
+"unidade": "lata 400 g",
+"preco_unitario": 39.19
+},
+{
+"nome": "Manteiga com sal 200g",
+"categoria": "alimentício",
+"unidade": "pote 200 g",
+"preco_unitario": 29.21
+},
+{
+"nome": "Margarina 500g",
+"categoria": "alimentício",
+"unidade": "pote 500 g",
+"preco_unitario": 16.36
+},
+{
+"nome": "Requeijão cremoso 200g",
+"categoria": "alimentício",
+"unidade": "copo 200 g",
+"preco_unitario": 12.48
+},
+{
+"nome": "Queijo muçarela 100g",
+"categoria": "alimentício",
+"unidade": "bandeja 100 g",
+"preco_unitario": 21.83
+},
+{
+"nome": "Queijo prato 100g",
+"categoria": "alimentício",
+"unidade": "bandeja 100 g",
+"preco_unitario": 38.76
+},
+{
+"nome": "Presunto cozido 100g",
+"categoria": "alimentício",
+"unidade": "bandeja 100 g",
+"preco_unitario": 39.4
+},
+{
+"nome": "Iogurte natural 170g",
+"categoria": "alimentício",
+"unidade": "pote 170 g",
+"preco_unitario": 33.08
+},
+{
+"nome": "Creme de leite 200g",
+"categoria": "alimentício",
+"unidade": "caixa 200 g",
+"preco_unitario": 20.7
+},
+{
+"nome": "Leite condensado 395g",
+"categoria": "alimentício",
+"unidade": "caixa 395 g",
+"preco_unitario": 27.32
+},
+{
+"nome": "Ovos brancos 12 unidades",
+"categoria": "alimentício",
+"unidade": "bandeja 12 un",
+"preco_unitario": 32.45
+},
+{
+"nome": "Pão de fôrma 400g",
+"categoria": "alimentício",
+"unidade": "pacote 400 g",
+"preco_unitario": 31.41
+},
+{
+"nome": "Pão integral 400g",
+"categoria": "alimentício",
+"unidade": "pacote 400 g",
+"preco_unitario": 30.28
+},
+{
+"nome": "Biscoito salgado 300g",
+"categoria": "alimentício",
+"unidade": "pacote 300 g",
+"preco_unitario": 16.71
+},
+{
+"nome": "Biscoito recheado 130g",
+"categoria": "alimentício",
+"unidade": "pacote 130 g",
+"preco_unitario": 14.99
+},
+{
+"nome": "Biscoito maizena 400g",
+"categoria": "alimentício",
+"unidade": "pacote 400 g",
+"preco_unitario": 10.88
+},
+{
+"nome": "Achocolatado em pó 400g",
+"categoria": "alimentício",
+"unidade": "pote 400 g",
+"preco_unitario": 27.15
+},
+{
+"nome": "Cereal matinal 300g",
+"categoria": "alimentício",
+"unidade": "caixa 300 g",
+"preco_unitario": 19.96
+},
+{
+"nome": "Aveia em flocos 170g",
+"categoria": "alimentício",
+"unidade": "caixa 170 g",
+"preco_unitario": 36.75
+},
+{
+"nome": "Milho de pipoca 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 20.7
+},
+{
+"nome": "Lentilha 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 10.63
+},
+{
+"nome": "Grão-de-bico 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 29.85
+},
+{
+"nome": "Milho verde em conserva 170g",
+"categoria": "alimentício",
+"unidade": "lata 170 g",
+"preco_unitario": 13.57
+},
+{
+"nome": "Ervilha em conserva 170g",
+"categoria": "alimentício",
+"unidade": "lata 170 g",
+"preco_unitario": 39.71
+},
+{
+"nome": "Sardinha em lata 125g",
+"categoria": "alimentício",
+"unidade": "lata 125 g",
+"preco_unitario": 24.43
+},
+{
+"nome": "Atum em pedaços 170g",
+"categoria": "alimentício",
+"unidade": "lata 170 g",
+"preco_unitario": 27.59
+},
+{
+"nome": "Azeitona verde 150g",
+"categoria": "alimentício",
+"unidade": "sachê 150 g",
+"preco_unitario": 24.72
+},
+{
+"nome": "Maionese 500g",
+"categoria": "alimentício",
+"unidade": "pote 500 g",
+"preco_unitario": 15.28
+},
+{
+"nome": "Ketchup 390g",
+"categoria": "alimentício",
+"unidade": "frasco 390 g",
+"preco_unitario": 24.78
+},
+{
+"nome": "Mostarda 200g",
+"categoria": "alimentício",
+"unidade": "frasco 200 g",
+"preco_unitario": 23.01
+},
+{
+"nome": "Vinagre de álcool 750ml",
+"categoria": "alimentício",
+"unidade": "garrafa 750 ml",
+"preco_unitario": 23.47
+},
+{
+"nome": "Vinagre de maçã 500ml",
+"categoria": "alimentício",
+"unidade": "garrafa 500 ml",
+"preco_unitario": 37.95
+},
+{
+"nome": "Chá preto 25 envelopes",
+"categoria": "alimentício",
+"unidade": "caixa 25 un",
+"preco_unitario": 29.5
+},
+{
+"nome": "Chá de camomila 15 envelopes",
+"categoria": "alimentício",
+"unidade": "caixa 15 un",
+"preco_unitario": 33.66
+},
+{
+"nome": "Suco concentrado 500ml",
+"categoria": "alimentício",
+"unidade": "garrafa 500 ml",
+"preco_unitario": 11.73
+},
+{
+"nome": "Refrigerante cola 2L",
+"categoria": "alimentício",
+"unidade": "garrafa 2 L",
+"preco_unitario": 40.24
+},
+{
+"nome": "Refrigerante guaraná 2L",
+"categoria": "alimentício",
+"unidade": "garrafa 2 L",
+"preco_unitario": 10.6
+},
+{
+"nome": "Água mineral sem gás 1.5L",
+"categoria": "alimentício",
+"unidade": "garrafa 1.5 L",
+"preco_unitario": 43.78
+},
+{
+"nome": "Água mineral com gás 500ml",
+"categoria": "alimentício",
+"unidade": "garrafa 500 ml",
+"preco_unitario": 13.56
+},
+{
+"nome": "Polpa de fruta congelada 100g",
+"categoria": "alimentício",
+"unidade": "pacote 100 g",
+"preco_unitario": 32.5
+},
+{
+"nome": "Batata palha 120g",
+"categoria": "alimentício",
+"unidade": "pacote 120 g",
+"preco_unitario": 11.66
+},
+{
+"nome": "Amendoim torrado 150g",
+"categoria": "alimentício",
+"unidade": "pacote 150 g",
+"preco_unitario": 17.16
+},
+{
+"nome": "Castanha-de-caju 100g",
+"categoria": "alimentício",
+"unidade": "pacote 100 g",
+"preco_unitario": 40.9
+},
+{
+"nome": "Goiabada 300g",
+"categoria": "alimentício",
+"unidade": "pacote 300 g",
+"preco_unitario": 28.17
+},
+{
+"nome": "Doce de leite 400g",
+"categoria": "alimentício",
+"unidade": "pote 400 g",
+"preco_unitario": 40.5
+},
+{
+"nome": "Gelatina em pó 20g",
+"categoria": "alimentício",
+"unidade": "pacote 20 g",
+"preco_unitario": 24.78
+},
+{
+"nome": "Pudim em pó 50g",
+"categoria": "alimentício",
+"unidade": "pacote 50 g",
+"preco_unitario": 14.76
+},
+{
+"nome": "Fermento em pó químico 100g",
+"categoria": "alimentício",
+"unidade": "pote 100 g",
+"preco_unitario": 34.27
+},
+{
+"nome": "Coco ralado 100g",
+"categoria": "alimentício",
+"unidade": "pacote 100 g",
+"preco_unitario": 17.88
+},
+{
+"nome": "Leite de coco 200ml",
+"categoria": "alimentício",
+"unidade": "vidro 200 ml",
+"preco_unitario": 33.85
+},
+{
+"nome": "Tempero completo 300g",
+"categoria": "alimentício",
+"unidade": "pote 300 g",
+"preco_unitario": 30.33
+},
+{
+"nome": "Caldo de galinha 114g",
+"categoria": "alimentício",
+"unidade": "caixa 6 un",
+"preco_unitario": 25.4
+},
+{
+"nome": "Pimenta-do-reino moída 50g",
+"categoria": "alimentício",
+"unidade": "pacote 50 g",
+"preco_unitario": 30.65
+},
+{
+"nome": "Salsicha congelada 500g",
+"categoria": "alimentício",
+"unidade": "pacote 500 g",
+"preco_unitario": 42.31
+},
+{
+"nome": "Linguiça calabresa 400g",
+"categoria": "alimentício",
+"unidade": "pacote 400 g",
+"preco_unitario": 21.01
+},
+{
+"nome": "Hambúrguer bovino congelado 670g",
+"categoria": "alimentício",
+"unidade": "caixa 12 un",
+"preco_unitario": 31.63
+},
+{
+"nome": "Detergente líquido 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 45.06
+},
+{
+"nome": "Sabão em pó 1kg",
+"categoria": "não-alimentício",
+"unidade": "caixa 1 kg",
+"preco_unitario": 23.01
+},
+{
+"nome": "Sabão líquido 1L",
+"categoria": "não-alimentício",
+"unidade": "frasco 1 L",
+"preco_unitario": 23.6
+},
+{
+"nome": "Amaciante para roupas 2L",
+"categoria": "não-alimentício",
+"unidade": "frasco 2 L",
+"preco_unitario": 33.98
+},
+{
+"nome": "Desinfetante para pisos 1L",
+"categoria": "não-alimentício",
+"unidade": "frasco 1 L",
+"preco_unitario": 28.19
+},
+{
+"nome": "Água sanitária 1L",
+"categoria": "não-alimentício",
+"unidade": "garrafa 1 L",
+"preco_unitario": 42.8
+},
+{
+"nome": "Lustra-móveis 200ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 200 ml",
+"preco_unitario": 39.15
+},
+{
+"nome": "Limpador multiuso 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 38.94
+},
+{
+"nome": "Esponja de aço 8 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 8 un",
+"preco_unitario": 26.89
+},
+{
+"nome": "Esponja de lavar louça 3 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 3 un",
+"preco_unitario": 34.84
+},
+{
+"nome": "Pano de prato",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 37.96
+},
+{
+"nome": "Pano multiuso 5 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 5 un",
+"preco_unitario": 25.4
+},
+{
+"nome": "Saco para lixo 30L 10 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 10 un",
+"preco_unitario": 35.96
+},
+{
+"nome": "Saco para lixo 50L 10 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 10 un",
+"preco_unitario": 45.06
+},
+{
+"nome": "Papel toalha 2 rolos",
+"categoria": "não-alimentício",
+"unidade": "pacote 2 un",
+"preco_unitario": 18.99
+},
+{
+"nome": "Guardanapo de papel 50 folhas",
+"categoria": "não-alimentício",
+"unidade": "pacote 50 un",
+"preco_unitario": 25.64
+},
+{
+"nome": "Papel alumínio 45cm x 4m",
+"categoria": "não-alimentício",
+"unidade": "rolo",
+"preco_unitario": 23.01
+},
+{
+"nome": "Filme de PVC 30m",
+"categoria": "não-alimentício",
+"unidade": "rolo",
+"preco_unitario": 40.15
+},
+{
+"nome": "Sabonete em barra 90g",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 30.93
+},
+{
+"nome": "Sabonete líquido 250ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 250 ml",
+"preco_unitario": 40.07
+},
+{
+"nome": "Shampoo 350ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 350 ml",
+"preco_unitario": 10.1
+},
+{
+"nome": "Condicionador 320ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 320 ml",
+"preco_unitario": 29.39
+},
+{
+"nome": "Creme dental 90g",
+"categoria": "não-alimentício",
+"unidade": "tubo 90 g",
+"preco_unitario": 33.39
+},
+{
+"nome": "Escova de dentes macia",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 27.81
+},
+{
+"nome": "Fio dental 50m",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 45.77
+},
+{
+"nome": "Enxaguante bucal 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 38.27
+},
+{
+"nome": "Papel higiênico folha dupla 4 rolos",
+"categoria": "não-alimentício",
+"unidade": "pacote 4 un",
+"preco_unitario": 39.5
+},
+{
+"nome": "Papel higiênico folha dupla 12 rolos",
+"categoria": "não-alimentício",
+"unidade": "pacote 12 un",
+"preco_unitario": 30.25
+},
+{
+"nome": "Haste flexível com algodão 75 unidades",
+"categoria": "não-alimentício",
+"unidade": "caixa 75 un",
+"preco_unitario": 33.98
+},
+{
+"nome": "Algodão em disco 50g",
+"categoria": "não-alimentício",
+"unidade": "pacote 50 g",
+"preco_unitario": 10.73
+},
+{
+"nome": "Absorvente higiênico 8 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 8 un",
+"preco_unitario": 11.83
+},
+{
+"nome": "Protetor diário 20 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 20 un",
+"preco_unitario": 40.24
+},
+{
+"nome": "Desodorante aerosol 150ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 150 ml",
+"preco_unitario": 33.21
+},
+{
+"nome": "Desodorante roll-on 50ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 50 ml",
+"preco_unitario": 40.51
+},
+{
+"nome": "Creme para pentear 300ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 300 ml",
+"preco_unitario": 17.3
+},
+{
+"nome": "Máscara capilar 300g",
+"categoria": "não-alimentício",
+"unidade": "pote 300 g",
+"preco_unitario": 22.98
+},
+{
+"nome": "Sabão em barra neutro 5 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 5 un",
+"preco_unitario": 12.2
+},
+{
+"nome": "Lava-louças em pasta 500g",
+"categoria": "não-alimentício",
+"unidade": "pote 500 g",
+"preco_unitario": 24.78
+},
+{
+"nome": "Limpador com amônia 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 44.47
+},
+{
+"nome": "Pedra sanitária 25g",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 35.84
+},
+{
+"nome": "Inseticida aerosol 300ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 300 ml",
+"preco_unitario": 13.57
+},
+{
+"nome": "Repelente de insetos 100ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 100 ml",
+"preco_unitario": 25.64
+},
+{
+"nome": "Fósforo maço com 10 caixas",
+"categoria": "não-alimentício",
+"unidade": "pacote 10 un",
+"preco_unitario": 37.95
+},
+{
+"nome": "Vela branca 8 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 8 un",
+"preco_unitario": 40.23
+},
+{
+"nome": "Lâmpada LED 9W",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 19.97
+},
+{
+"nome": "Pilha AA 2 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 2 un",
+"preco_unitario": 20.7
+},
+{
+"nome": "Pilha AAA 2 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 2 un",
+"preco_unitario": 10.6
+},
+{
+"nome": "Prendedor de roupas de madeira 12 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 12 un",
+"preco_unitario": 28.17
+},
+{
+"nome": "Prendedor de roupas de plástico 12 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 12 un",
+"preco_unitario": 27.81
+},
+{
+"nome": "Corda para varal 15m",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 39.19
+},
+{
+"nome": "Balde plástico 10L",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 36.75
+},
+{
+"nome": "Bacia plástica 15L",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 13.56
+},
+{
+"nome": "Vassoura de nylon",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 16.36
+},
+{
+"nome": "Rodo de borracha 40cm",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 43.67
+},
+{
+"nome": "Pá para lixo com cabo",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 21.01
+},
+{
+"nome": "Escova sanitária com suporte",
+"categoria": "não-alimentício",
+"unidade": "unidade",
+"preco_unitario": 11.73
+},
+{
+"nome": "Protetor solar FPS 30 120ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 120 ml",
+"preco_unitario": 29.21
+},
+{
+"nome": "Hidratante corporal 200ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 200 ml",
+"preco_unitario": 12.48
+},
+{
+"nome": "Creme para as mãos 50g",
+"categoria": "não-alimentício",
+"unidade": "tubo 50 g",
+"preco_unitario": 24.72
+},
+{
+"nome": "Lâmina de barbear descartável 2 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 2 un",
+"preco_unitario": 34.27
+},
+{
+"nome": "Creme de barbear 85g",
+"categoria": "não-alimentício",
+"unidade": "tubo 85 g",
+"preco_unitario": 25.4
+},
+{
+"nome": "Loção pós-barba 100ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 100 ml",
+"preco_unitario": 16.71
+},
+{
+"nome": "Desengordurante para cozinha 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 38.76
+},
+{
+"nome": "Limpa-vidros 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 43.78
+},
+{
+"nome": "Aromatizador de ambiente 360ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 360 ml",
+"preco_unitario": 39.4
+},
+{
+"nome": "Cera líquida para pisos 750ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 750 ml",
+"preco_unitario": 33.08
+},
+{
+"nome": "Tira-manchas em pó 420g",
+"categoria": "não-alimentício",
+"unidade": "pote 420 g",
+"preco_unitario": 27.32
+},
+{
+"nome": "Água de passar roupas 500ml",
+"categoria": "não-alimentício",
+"unidade": "frasco 500 ml",
+"preco_unitario": 14.99
+},
+{
+"nome": "Luva de borracha para limpeza",
+"categoria": "não-alimentício",
+"unidade": "par",
+"preco_unitario": 20.7
+},
+{
+"nome": "Filtro de papel para café 30 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 30 un",
+"preco_unitario": 10.63
+},
+{
+"nome": "Copo descartável 200ml 100 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 100 un",
+"preco_unitario": 29.85
+},
+{
+"nome": "Prato descartável 10 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 10 un",
+"preco_unitario": 24.43
+},
+{
+"nome": "Talher descartável 10 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 10 un",
+"preco_unitario": 27.59
+},
+{
+"nome": "Canudo de papel 20 unidades",
+"categoria": "não-alimentício",
+"unidade": "pacote 20 un",
+"preco_unitario": 15.28
+},
+{
+"nome": "Palito de dente 100 unidades",
+"categoria": "não-alimentício",
+"unidade": "caixa 100 un",
+"preco_unitario": 31.25
+}
+]
+}
+]
+}

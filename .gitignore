@@ -12,3 +12,6 @@ wheels/
 
 # Databases
 notas_fiscais_ficticias
+
+# VS Code
+.vscode

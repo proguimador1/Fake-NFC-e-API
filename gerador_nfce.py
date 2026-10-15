@@ -1,8 +1,7 @@
-import random
-import os
 import json
+import os
+import random
 import xml.etree.ElementTree as ET
-from datetime import datetime
 from fastapi import FastAPI, Response
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -16,84 +15,96 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-produtos_alimenticios = []
-produtos_nao_alimenticios = []
 
-with open("products.json", "r") as file:
-    produtos = json.load(file)
+def carregar_dados(caminho_arquivo="data.json"):
+    with open(caminho_arquivo, "r", encoding="utf-8") as file:
+        return json.load(file)
 
-    produtos_alimenticios = produtos["produtos_alimenticios"]
-    produtos_nao_alimenticios = produtos["produtos_nao_alimenticios"]
+
+def sortear_produtos(produtos):
+    alimenticios = [p for p in produtos if p["categoria"] == "alimentício"]
+    nao_alimenticios = [
+        p for p in produtos if p["categoria"] == "não-alimentício"
+    ]
+
+    prod_alim = random.sample(alimenticios, 1)
+    prod_nao_alim = random.sample(nao_alimenticios, 2)
+
+    selecionados = prod_alim + prod_nao_alim
+
+    total_desejado = random.randint(3, 10)
+    qtd_restante = total_desejado - 3
+
+    if qtd_restante > 0:
+        restantes = [p for p in produtos if p not in selecionados]
+        selecionados.extend(random.sample(restantes, qtd_restante))
+
+    random.shuffle(selecionados)
+    return selecionados
+
+
+def emitirNFCe(xml_str):
+    return {"status": 200, "xml": xml_str}
 
 
 @app.post("/api/gerar-compra/")
 def gerar_compra():
-    root = ET.Element("NFCeFicticia")
+    dados = carregar_dados("data.json")
+    supermercado = random.choice(dados["supermercados"])
 
-    aviso = ET.SubElement(root, "aviso")
-    aviso.text = "DOCUMENTO FICTÍCIO – USO ACADÊMICO – NÃO É NOTA FISCAL VÁLIDA"
+    root = ET.Element("nfce")
 
-    numero = ET.SubElement(root, "numero")
-    numero.text = str(random.randint(1000, 999999))
-
-    data = ET.SubElement(root, "data")
-    data.text = datetime.now().strftime("%Y-%m-%d")
-
-    emitente = ET.SubElement(root, "emitente_ficticio")
-    emitente.text = "Supermercado Modelo Fictício LTDA"
+    emitente = ET.SubElement(root, "emitente")
+    ET.SubElement(emitente, "nome").text = supermercado["nome"]
+    ET.SubElement(emitente, "cnpj").text = supermercado["cnpj"]
 
     itens_elem = ET.SubElement(root, "itens")
 
-    qtd_itens = random.randint(2, 10)
+    produtos_sorteados = sortear_produtos(supermercado["produtos"])
+    valor_total_compra = 0.0
 
-    prod_alim = random.choice(produtos_alimenticios)
-    prod_nao_alim = random.choice(produtos_nao_alimenticios)
+    for prod in produtos_sorteados:
+        qtd = random.randint(1, 6)
+        preco_unitario = float(prod["preco_unitario"])
+        valor_total_produto = round(preco_unitario * qtd, 2)
+        valor_total_compra += valor_total_produto
 
-    produtos_selecionados = [prod_alim, prod_nao_alim]
-
-    if qtd_itens > 2:
-        todos_produtos = produtos_alimenticios + produtos_nao_alimenticios
-        restantes = [p for p in todos_produtos if p not in produtos_selecionados]
-        produtos_selecionados.extend(random.sample(restantes, qtd_itens - 2))
-
-    random.shuffle(produtos_selecionados)
-
-    valor_total_nota = 0.0
-
-    for prod in produtos_selecionados:
         item_elem = ET.SubElement(itens_elem, "item")
+        ET.SubElement(item_elem, "nome").text = prod["nome"]
+        ET.SubElement(item_elem, "categoria").text = prod["categoria"]
+        ET.SubElement(item_elem, "quantidade").text = str(qtd)
+        ET.SubElement(
+            item_elem, "valorUnitario"
+        ).text = f"{preco_unitario:.2f}"
+        ET.SubElement(
+            item_elem, "valorTotal"
+        ).text = f"{valor_total_produto:.2f}"
 
-        qtd = random.randint(1, 5)
-        v_unit = prod["preco"]
-        v_total = round(v_unit * qtd, 2)
-        valor_total_nota += v_total
+    ET.SubElement(
+        root, "totalCompra"
+    ).text = f"{round(valor_total_compra, 2):.2f}"
 
-        categoria = "alimenticio" if prod in produtos_alimenticios else "nao_alimenticio"
-
-        p_nome = ET.SubElement(item_elem, "produto")
-        p_nome.text = prod["nome"]
-
-        p_cat = ET.SubElement(item_elem, "categoria")
-        p_cat.text = categoria
-
-        p_qtd = ET.SubElement(item_elem, "quantidade")
-        p_qtd.text = str(qtd)
-
-        p_vunit = ET.SubElement(item_elem, "valor_unitario")
-        p_vunit.text = f"{v_unit:.2f}"
-
-        p_vtot = ET.SubElement(item_elem, "valor_total")
-        p_vtot.text = f"{v_total:.2f}"
-
-    total_elem = ET.SubElement(root, "total")
-    total_elem.text = f"{round(valor_total_nota, 2):.2f}"
+    formas_pagamento = [
+        "Em espécie",
+        "Cartão de crédito",
+        "Cartão de débito",
+        "Pix",
+    ]
+    ET.SubElement(root, "formaPagamento").text = random.choice(
+        formas_pagamento
+    )
 
     ET.indent(root, space="  ")
-    xml_content = ET.tostring(root, encoding="utf-8", xml_declaration=True).decode("utf-8")
+    xml_content = ET.tostring(root, encoding="utf-8").decode("utf-8")
 
-    return Response(content=xml_content, media_type="application/xml")
+    resposta = emitirNFCe(xml_content)
+
+    return Response(content=resposta["xml"], media_type="application/xml")
 
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host=os.getenv("HOST"), port=os.getenv("PORT"))
+
+    host = os.getenv("HOST", "0.0.0.0")
+    port = int(os.getenv("PORT", 8000))
+    uvicorn.run(app, host=host, port=port)
