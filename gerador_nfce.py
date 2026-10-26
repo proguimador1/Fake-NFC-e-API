@@ -1,8 +1,10 @@
 import json
 import os
 import random
+from datetime import date, timedelta
 import xml.etree.ElementTree as ET
 from fastapi import FastAPI, Response
+from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
@@ -47,19 +49,41 @@ def emitirNFCe(xml_str):
     return {"status": 200, "xml": xml_str}
 
 
+class CompraRequest(BaseModel):
+    counter: int
+
+
 @app.post("/api/gerar-compra/")
-def gerar_compra():
+def gerar_compra(payload: CompraRequest):
     dados = carregar_dados("data.json")
     supermercado = random.choice(dados["supermercados"])
 
     root = ET.Element("nfce")
 
-    emitente = ET.SubElement(root, "emitente")
-    ET.SubElement(emitente, "nome").text = supermercado["nome"]
-    ET.SubElement(emitente, "cnpj").text = supermercado["cnpj"]
+    # Cabeçalho da NFC-e
+    ET.SubElement(root, "chave_acesso").text = "1"
 
-    itens_elem = ET.SubElement(root, "itens")
+    # Cálculo da data com base no counter recebido na requisição
+    data_calculada = date.today() - timedelta(days=payload.counter)
+    ET.SubElement(root, "data_compra").text = data_calculada.strftime(
+        "%Y-%m-%d"
+    )
 
+    # Guardamos a referência da tag para atribuir o total acumulado após o loop
+    valor_total_elem = ET.SubElement(root, "valor_total")
+
+    ET.SubElement(root, "cnpj").text = supermercado["cnpj"]
+    ET.SubElement(root, "nome_estabelecimento").text = supermercado["nome"]
+
+    formas_pagamento = [
+        "Em espécie",
+        "Cartão de crédito",
+        "Cartão de débito",
+        "Pix",
+    ]
+    ET.SubElement(root, "metodo_pag").text = random.choice(formas_pagamento)
+
+    # Processamento dos itens
     produtos_sorteados = sortear_produtos(supermercado["produtos"])
     valor_total_compra = 0.0
 
@@ -69,33 +93,23 @@ def gerar_compra():
         valor_total_produto = round(preco_unitario * qtd, 2)
         valor_total_compra += valor_total_produto
 
-        item_elem = ET.SubElement(itens_elem, "item")
-        ET.SubElement(item_elem, "nome").text = prod["nome"]
-        ET.SubElement(item_elem, "categoria").text = prod["categoria"]
-        ET.SubElement(item_elem, "quantidade").text = str(qtd)
+        item_elem = ET.SubElement(root, "itens")
+        ET.SubElement(item_elem, "descricao").text = prod["nome"]
+        ET.SubElement(item_elem, "un").text = str(qtd)
         ET.SubElement(
-            item_elem, "valorUnitario"
+            item_elem, "valor_unitario"
         ).text = f"{preco_unitario:.2f}"
         ET.SubElement(
-            item_elem, "valorTotal"
+            item_elem, "valor_total"
         ).text = f"{valor_total_produto:.2f}"
 
-    ET.SubElement(
-        root, "totalCompra"
-    ).text = f"{round(valor_total_compra, 2):.2f}"
-
-    formas_pagamento = [
-        "Em espécie",
-        "Cartão de crédito",
-        "Cartão de débito",
-        "Pix",
-    ]
-    ET.SubElement(root, "formaPagamento").text = random.choice(
-        formas_pagamento
-    )
+    # Atualiza a tag valor_total com o somatório
+    valor_total_elem.text = f"{valor_total_compra:.2f}"
 
     ET.indent(root, space="  ")
-    xml_content = ET.tostring(root, encoding="utf-8").decode("utf-8")
+    xml_content = ET.tostring(
+        root, encoding="utf-8", xml_declaration=True
+    ).decode("utf-8")
 
     resposta = emitirNFCe(xml_content)
 
