@@ -44,6 +44,13 @@ def sortear_produtos(produtos):
     random.shuffle(selecionados)
     return selecionados
 
+def gerar_chave():
+    base = ""
+
+    for _ in range(44):
+        base += str(random.randint(1,9))
+
+    return base
 
 def emitirNFCe(xml_str):
     return {"status": 200, "xml": xml_str}
@@ -61,7 +68,7 @@ def gerar_compra(payload: CompraRequest):
     root = ET.Element("nfce")
 
     # Cabeçalho da NFC-e
-    ET.SubElement(root, "chave_acesso").text = "1"
+    ET.SubElement(root, "chave_acesso").text = gerar_chave()
 
     # Cálculo da data com base no counter recebido na requisição
     data_calculada = date.today() - timedelta(days=payload.counter)
